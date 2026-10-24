@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240">
+  <rect width="480" height="240" fill="#f4f6f2"/>
+  <text x="24" y="40" font-family="sans-serif" font-size="20" fill="#2d4a3e">Study partners matched this week</text>
+  <rect x="40" y="150" width="60" height="50" fill="#5b8c6e"/>
+  <rect x="130" y="120" width="60" height="80" fill="#5b8c6e"/>
+  <rect x="220" y="90" width="60" height="110" fill="#5b8c6e"/>
+  <rect x="310" y="70" width="60" height="130" fill="#5b8c6e"/>
+  <text x="48" y="220" font-family="sans-serif" font-size="14" fill="#2d4a3e">Mon</text>
+  <text x="140" y="220" font-family="sans-serif" font-size="14" fill="#2d4a3e">Tue</text>
+  <text x="230" y="220" font-family="sans-serif" font-size="14" fill="#2d4a3e">Wed</text>
+  <text x="320" y="220" font-family="sans-serif" font-size="14" fill="#2d4a3e">Thu</text>
+  <text x="392" y="110" font-family="sans-serif" font-size="16" fill="#2d4a3e">1,240</text>
+</svg>

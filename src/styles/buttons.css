@@ -1,0 +1,15 @@
+/* StudyBuddy Button Styles */
+
+.button-primary {
+  background: #2d4a3e;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.button-secondary {
+  background: #f4f6f2;
+  color: #b0b8aa;
+  border: 1px solid #e1e6dd;
+  padding: 8px 16px;
+  border-radius: 4px;
+}

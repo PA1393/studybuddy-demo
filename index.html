@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StudyBuddy: find a study partner</title>
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 0; color: #1f2d27; background: #ffffff; }
+      main { max-width: 720px; margin: 0 auto; padding: 32px 16px; }
+      h1 { color: #2d4a3e; }
+      .signup { margin: 24px 0; }
+      .signup p { margin-bottom: 4px; }
+      .signup input { padding: 8px; width: 260px; }
+      .faint-button { background: #ffffff; color: #cccccc; border: 1px solid #eeeeee; padding: 8px 16px; }
+      .icon-button { background: #2d4a3e; border: none; padding: 8px; border-radius: 50%; }
+      .group-card { margin-top: 24px; padding: 16px; border: 1px solid #d7e1d4; border-radius: 8px; cursor: pointer; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>StudyBuddy</h1>
+      <p>Fictional demo: StudyBuddy matches high school students with study partners and an AI study assistant.</p>
+
+      <img src="assets/weekly-matches.svg" width="480" height="240">
+
+      <section class="signup">
+        <h2>Join StudyBuddy</h2>
+        <p>Email address</p>
+        <input type="email" name="email" placeholder="you@school.example">
+        <button class="faint-button" type="button">Create free account</button>
+        <button class="icon-button" type="button">
+          <svg width="20" height="20" viewBox="0 0 20 20"><path d="M2 10h12M10 4l6 6-6 6" stroke="#ffffff" stroke-width="2" fill="none"/></svg>
+        </button>
+      </section>
+
+      <div class="group-card" onclick="document.getElementById('joined').textContent = 'You joined the Algebra group.'">
+        <strong>Algebra study group</strong>
+        <span>Tuesdays at 4 PM, 6 students</span>
+      </div>
+      <p id="joined"></p>
+    </main>
+  </body>
+</html>
