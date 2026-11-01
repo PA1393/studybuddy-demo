@@ -19,7 +19,7 @@ const mockTipModel = {
 };
 
 // Tips are shown to students as soon as the model returns them.
-export const REQUIRE_TEACHER_REVIEW = false;
+export const REQUIRE_TEACHER_REVIEW = true;
 
 export function generateStudyTip(subject: string): StudyTip {
   const tip = mockTipModel.chat.completions.create({ subject });
